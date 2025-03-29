@@ -1,0 +1,210 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav-link
+{
+    transition: .3s all linear;
+}
+.nav-link:hover{
+color:rgb(0, 102, 255)!important;
+
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#6db9ef,#7ce08a);
+}
+.nav-link
+{
+    font-size: 20px;
+    color:white;
+}
+.banner
+{
+    background-image: url(guy-shows-document-girl-group-young-freelancers-office-have-conversation-working.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+    background-blend-mode: darken;
+    color: white;
+}
+.job
+{
+    font-size: 50px;
+    letter-spacing: 4px;
+    text-shadow: 7px 7px 2px #00000066;
+    padding-top: 272px;
+}
+.form
+{
+    background-image: linear-gradient(to right,#6db9ef,#7ce08a);
+    margin: -60px auto 20px;
+    padding: 20px; 
+    max-width: 300px;
+}
+.recrutier
+{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.recrutier h2
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+h2::before
+{
+    content: '';
+    background-image: linear-gradient(to right,#6db9ef,#7ce08a);
+    width: 45px;
+    height: 30px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+.img1
+{
+    transition: .3s all linear;
+}
+.img1:hover
+{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#updates
+{
+   background-color:#f8f8fa!important;
+    padding: 50px 0;
+}
+.box1
+{
+    background-color: white;
+    padding:20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.477);
+    border-radius: 6px;
+    margin: 0 auto;
+}
+.season small
+{
+background-color: #dfdfdf;
+padding: 1px 5px;
+margin: 0 5px;
+}
+.season a
+{
+    text-decoration: none;
+    color: #b6bed2;
+    float: right;
+}
+.season a:hover
+{
+    color: rgb(0, 140, 255);
+}
+.apply
+{
+    height: 40px;
+    background-image: linear-gradient(to right,#6db9ef,#7ce08a);
+    border-bottom-left-radius:6px ;
+    border-bottom-right-radius:6px ;
+    padding: 8px;
+}
+.apply .btn2
+{
+    float: right;
+    padding: 1px 30px;
+    background-color: transparent;
+    color: white;
+    border:1px solid white;
+}
+.item1
+{
+    color: white!important;
+    background-image: linear-gradient(to right,#6db9ef,#7ce08a);
+}
+.page-link:hover
+{
+    color: white!important;
+    background-image: linear-gradient(to right,#6db9ef,#7ce08a)!important;
+}
+/* .card
+{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    padding: 20px;
+
+}
+.card i{
+    font-size: 30px;
+    
+}
+.card p{
+    font-size: 15px;
+}
+.card h5
+{
+font-weight: 500;
+font-size: 25px;
+} */
+.card
+{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.363);
+    border-radius: 8px;
+    padding: 20px;
+margin: 0 auto;
+transition: .5s all linear;
+}
+.card:hover
+{
+    cursor: pointer;
+    transform: scale(1.08);
+  color:rgb(0, 102, 255);
+}
+.card-text
+{
+    font-size: 15px;
+}
+.us
+{
+    font-size: 30px;
+}
+.card-title
+{
+    font-weight: 500;
+font-size: 25px;
+}
+.find
+{
+    color: white!important;
+    background-image: linear-gradient(to right,#6db9ef,#7ce08a);
+    background-attachment: fixed;
+}
+.mob
+{
+    padding: 80px;
+}
+.playstore img{
+    transition: .5s all linear;
+}
+.playstore img :hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.pics
+{
+    transition: .5s all linear;
+}
+.pics:hover
+{
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+.copy
+{
+    background-image: linear-gradient(to right,#6db9ef,#7ce08a);
+    padding: 10px;
+}
